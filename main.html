@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manduva Jaswita - Portfolio</title>
+  <!--- favicon-->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <!--- custom css link-->
+  <link rel="stylesheet" href="style.css">
+  <!--- google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!--- #MAIN-->
+  <main>
+    <!--- #SIDEBAR-->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/me.jpg" alt="Manduva Jaswita" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Manduva Jaswita">Manduva Jaswita</h1>
+          <p class="title">Web Developer & Embedded Systems Enthusiast</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:jaswitamanduva@gmail.com" class="contact-link">jaswitamanduva@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+12133522795" class="contact-link">+918885393863</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2005-09-26">September 26,2005</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Coimbatore , India</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--- #main-content-->
+    <div class="main-content">
+
+      <!--- #NAVBAR-->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--#ABOUT -->
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            I'm Manduva Jaswita, a 3rd year Computer Science student from Amrita Vishwa Vidyapeetham, Coimbatore.
+            I enjoy building responsive web interfaces, working on embedded systems, and exploring real-world problems using AI/ML.
+          </p>
+
+          <p>
+            Along with academic excellence (Grade 12 with distinction), I am an active basketball player and team leader.
+            I love blending technology and creativity—whether it's coding a solution, designing a UI, or leading a team to success.
+          </p>
+        </section>
+
+        <!--- service-->
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/designer.png" alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX Design</h4>
+                <p class="service-item-text">
+                  Designing modern, accessible, and visually appealing user interfaces using Figma and Canva.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/code.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+                <p class="service-item-text">
+                  Frontend development using HTML, CSS, JavaScript with responsive designs and interactivity.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+                <div class="service-icon-box">
+                    <img src="./assets/images/motherboard.png" alt="App development icon" width="40">
+                </div>
+                <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Embedded Projects</h4>
+                    <p class="service-item-text">
+                        Creating real-time embedded systems using Arduino (like digital thermometers and alert systems).
+                    </p>
+                </div>
+            </li>
+
+            <li class="service-item">
+                <div class="service-icon-box">
+                    <img src="./assets/images/leadership (1).png" alt="Leadership icon" width="40">
+                </div>
+                <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Leadership & Sports</h4>
+                    <p class="service-item-text">
+                        Led basketball teams in inter-college events; highly organized with strong team coordination skills.
+                </p>
+                </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--- testimonials (converted to My Projects)-->
+
+        <section class="testimonials">
+            <h3 class="h3 testimonials-title">My Projects</h3>
+            <ul class="testimonials-list has-scrollbar">
+                <li class="testimonials-item">
+                    <div class="content-card" data-testimonials-item>
+                        <figure class="testimonials-avatar-box">
+                          <img src="./assets/images/temperature sensor.webp" alt="Smart Thermometer" width="60">
+                        </figure>
+                        <h4 class="h4 testimonials-item-title">Smart Thermometer</h4>
+                        <div class="testimonials-text">
+                        <p>
+                            A digital thermometer built using the TMP36 sensor and Arduino that displays temperature on an LCD screen and alerts with a buzzer when the threshold exceeds. It also has a push button to convert between Celsius and Fahrenheit.
+                        </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="testimonials-item">
+                    <div class="content-card" data-testimonials-item>
+                        <figure class="testimonials-avatar-box">
+                          <img src="./assets/images/bus.png" alt="Bus Booking System" width="60">
+                        </figure>
+                        <h4 class="h4 testimonials-item-title">Bus Booking System</h4>
+                        <div class="testimonials-text">
+                        <p>
+                            A multithreaded application that handles real-time bus ticket bookings using synchronized threads in Python to prevent race conditions, ensuring smooth concurrent bookings.
+                        </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="testimonials-item">
+                    <div class="content-card" data-testimonials-item>
+                        <figure class="testimonials-avatar-box">
+                          <img src="./assets/images/face.jpg" alt="Face Expression Detection" width="60">
+                        </figure>
+                        <h4 class="h4 testimonials-item-title">Facial Expression Detection</h4>
+                        <div class="testimonials-text">
+                        <p>
+                            A machine learning model that detects facial emotions (like happy, sad, surprised) using Python and OpenCV. Useful for sentiment analysis and user interaction feedback systems.
+                        </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="testimonials-item">
+                    <div class="content-card" data-testimonials-item>
+                    <figure class="testimonials-avatar-box">
+                        <img src="./assets/images/dj.png" alt="DJ Platform" width="60">
+                    </figure>
+                        <h4 class="h4 testimonials-item-title">DJ Platform</h4>
+                        <div class="testimonials-text">
+                        <p>
+                            An interactive music mixing web app that allows users to mix beats and tracks live, designed with HTML5, CSS3 animations, and JavaScript.
+                        </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="testimonials-item">
+                    <div class="content-card" data-testimonials-item>
+                        <figure class="testimonials-avatar-box">
+                        <img src="./assets/images/port.png" alt="Portfolio Website" width="60">
+                        </figure>
+                        <h4 class="h4 testimonials-item-title">Portfolio Website</h4>
+                        <div class="testimonials-text">
+                        <p>
+                            This very site! A sleek, scroll-reveal animated personal portfolio to showcase my journey as a web developer and embedded systems enthusiast.
+                        </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+          <button class="modal-close-btn" data-modal-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+          <div class="modal-img-wrapper">
+            <figure class="modal-avatar-box">
+              <img src="./assets/images/project-1.jpg" alt="Project Thumbnail" width="80" data-modal-img>
+            </figure>
+            <img src="./assets/images/icon-quote.svg" alt="quote icon">
+          </div>
+          <div class="modal-content">
+            <h4 class="h3 modal-title" data-modal-title>Project Title</h4>
+            <time datetime="2025-01-01">1 January, 2025</time>
+            <div data-modal-text>
+              <p>
+                This project involved building a scalable web application using modern technologies. It was an enriching experience focusing on performance, usability, and design patterns.
+              </p>
+            </div>
+          </div>
+          </section>
+        </div>
+      </article>
+
+      <!--- #RESUME-->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <!-- Education -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">B.Tech in Computer Science and Engineering</h4>
+              <span>2023 — 2027 (Ongoing)</span>
+              <p class="timeline-text">
+              Amrita School of Engineering, Coimbatore<br>
+              CGPA: 8.31 (2nd Year)
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Higher Secondary (12th Grade)</h4>
+              <span>Completed May 2023</span>
+              <p class="timeline-text">
+              Prathibha College, Rajahmundry (AP State Board)<br>
+              Score: 981/1000
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Secondary Education (10th Grade)</h4>
+              <span>Completed August 2021</span>
+              <p class="timeline-text">
+              The Future Kids School, AP (ICSE)<br>
+              Percentage: 94.6%
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- Skills -->
+        <section class="skill">
+          <h3 class="h3 skills-title">My Skills</h3>
+          <ul class="skills-list content-card">
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Programming Languages</h5>
+              <data value="90">90%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 90%;"></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Web Technologies</h5>
+              <data value="85">85%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 85%;"></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Core CS Concepts</h5>
+              <data value="80">80%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 80%;"></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Tools & Software</h5>
+              <data value="75">75%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 75%;"></div>
+            </div>
+          </li>
+
+          <li class="skills-item">
+            <div class="title-wrapper">
+              <h5 class="h5">Soft & Personal Skills</h5>
+              <data value="90">90%</data>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 90%;"></div>
+            </div>
+          </li>
+
+          </ul>
+        </section>
+
+        <!-- Achievements -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="medal-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Sports & Extracurriculars</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Basketball Captain</h4>
+              <span>School & College</span>
+              <p class="timeline-text">
+                Represented South Zone; winner in multiple inter-school and inter-college tournaments. Awarded Best Sportsperson.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Athletics</h4>
+              <p class="timeline-text">
+                Secured top ranks in 100m & 200m sprints at district-level athletic meets.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Chess & Throwball</h4>
+              <p class="timeline-text">
+                Participated in several school and college-level competitions in both sports.
+              </p>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <!--- #PORTFOLIO-->
+      <article class="portfolio" data-page="portfolio">
+        <header>
+        <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+            <li class="filter-item"><button data-filter-btn>Web design</button></li>
+            <li class="filter-item"><button data-filter-btn>Applications</button></li>
+            <li class="filter-item"><button data-filter-btn>Web development</button></li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+            <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+                </button>
+
+            <ul class="select-list">
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>Web design</button></li>
+              <li class="select-item"><button data-select-item>Applications</button></li>
+              <li class="select-item"><button data-select-item>Web development</button></li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="https://github.com/Jaswita/smart-thermometer" target="_blank">
+              <figure class="project-img">
+              <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+              <img src="./assets/images/temperature sensor.webp" alt="Smart Thermometer" loading="lazy">
+              </figure>
+              <h3 class="project-title">Smart Thermometer</h3>
+              <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="https://github.com/Jaswita/bus-ticket-booking" target="_blank">
+              <figure class="project-img">
+                <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                <img src="./assets/images/bus.png" alt="Bus Ticket Booking System" loading="lazy">
+              </figure>
+              <h3 class="project-title">Bus Ticket Booking</h3>
+              <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://github.com/Jaswita/face-expression-detection" target="_blank">
+              <figure class="project-img">
+                <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                <img src="./assets/images/face.jpg" alt="Facial Expression Detection" loading="lazy">
+              </figure>
+              <h3 class="project-title">Face Expression Detection</h3>
+              <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="https://github.com/Jaswita/dj-platform" target="_blank">
+              <figure class="project-img">
+                <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                <img src="./assets/images/dj.png" alt="DJ Platform" loading="lazy">
+              </figure>
+              <h3 class="project-title">DJ Platform</h3>
+              <p class="project-category">Web design</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://github.com/Jaswita/contact_book" target="_blank">
+              <figure class="project-img">
+                <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                <img src="./assets/images/book.jpeg" alt="Facial Expression Detection" loading="lazy">
+              </figure>
+              <h3 class="project-title">Contact Book</h3>
+              <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://github.com/Jaswita/portfolio_me" target="_blank">
+              <figure class="project-img">
+                <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                <img src="./assets/images/port.png" alt="Portfolio Website" loading="lazy">
+              </figure>
+              <h3 class="project-title">Portfolio Website</h3>
+              <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+      <!--- #CONTACT-->
+      <article class="contact" data-page="contact">
+  <header>
+    <h2 class="h2 article-title">Let's Connect</h2>
+  </header>
+
+  <section class="contact-intro" style="color: white;">
+    <p class="contact-message">
+      Have a project idea, collaboration offer, or just want to connect? I'm just a message away!
+    </p>
+    <p class="contact-quote">
+      <em>"Connecting people is the start of great ideas."</em>
+    </p>
+  </section>
+
+  <section class="contact-cards">
+    <div class="contact-card">
+      <ion-icon name="mail-outline" class="contact-icon"></ion-icon>
+      <div class="contact-info">
+        <h4>Email</h4>
+        <a href="mailto:jaswitamanduva@gmail.com">jaswitamanduva@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="contact-card">
+      <ion-icon name="logo-github" class="contact-icon"></ion-icon>
+      <div class="contact-info">
+        <h4>GitHub</h4>
+        <a href="https://github.com/jaswita" target="_blank">github.com/jaswita</a>
+      </div>
+    </div>
+
+    <div class="contact-card">
+      <ion-icon name="logo-linkedin" class="contact-icon"></ion-icon>
+      <div class="contact-info">
+        <h4>LinkedIn</h4>
+        <a href="https://linkedin.com/in/manduva-jaswita" target="_blank">linkedin.com/in/jaswita</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="download-resume">
+    <a href="./assets/resume/Resume .pdf" class="btn" download>
+      <ion-icon name="cloud-download-outline"></ion-icon>
+      <span>Download My Resume</span>
+    </a>
+  </section>
+</article>
+
+
+
+    </div>
+  </main>
+
+  <!--- custom js link-->
+  <script src="script.js"></script>
+
+  <!--- ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
